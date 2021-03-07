@@ -1,0 +1,25 @@
+
+//以下注释按需选取
+类
+ /**
+ 	*  
+ 	* @ProjectName:    $PROJECT_NAME$
+ 	* @Package:        $PACKAGE_NAME$
+ 	* @ClassName:      $NAME$
+ 	* @Description:    java类作用描述
+ 	* @Author:         
+ 	* @CreateDate:     $DATE$ $TIME$
+ 	* @UpdateUser:     更新者
+ 	* @UpdateDate:     $DATE$ $TIME$
+ 	* @UpdateRemark:   更新内容
+ 	* @Version:        1.0
+ */
+
+方法
+/**  
+    * @Title: ${enclosing_method}   
+　　* @Description: ${todo}(这里用一句话描述这个方法的作用)   
+　　* @param ${tags}    设定文件   
+　　* @return ${return_type}    返回类型   
+　　* @throws   
+　　*/

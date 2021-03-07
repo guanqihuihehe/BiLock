@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "G:\\Bilock",
+      "sdkFolder": "C:\\Users\\GrassFighter\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "G:\\Bilock\\MFCC\\build\\intermediates",
+      "gradleModulePathName": ":MFCC",
+      "moduleRootFolder": "G:\\Bilock\\MFCC",
+      "makeFile": "G:\\Bilock\\MFCC\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "G:\\Bilock\\.cxx",
+      "cxxFolder": "G:\\Bilock\\MFCC\\.cxx",
+      "ndkFolder": "E:\\Sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "G:\\Bilock\\MFCC\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "G:\\Bilock\\MFCC\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "G:\\Bilock\\MFCC\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "G:\\Bilock\\MFCC\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "G:\\Bilock\\MFCC\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}

@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        //applicationId "com.example.administrator.mfcc"
+<<<<<<< Updated upstream
+        minSdkVersion 15
+        targetSdkVersion 28
+=======
+        minSdkVersion 23
+        targetSdkVersion 26
+>>>>>>> Stashed changes
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            version "3.10.2"
+        }
+    }
+}
+
+dependencies {
+    api 'com.github.wendykierp:JTransforms:3.0'
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api 'com.android.support:appcompat-v7:28.0.0'
+    api 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    api files('libs/libsvm.jar')
+    api project(path: ':FFTLibrary')
+
+    implementation group: 'uk.me.berndporr', name:'iirj', version: '1.1'
+}
